@@ -6,19 +6,52 @@
 		<title>Registreringsskjema</title>
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/variables.css">
+		<link rel="stylesheet" href="css/font.css">
 	</head>
 
 	<body>
 		<div class="form">
-			<div class="form__title">Create An Account</div>
-			<div>First Name</div>
-			<div>Last Name</div>
-			<div>Email</div>
-			<div>Phone</div>
-		</div>
+			<h1 class="form__title">Create An Account</h1>
+				<div class="form__content">
+					<div class="form__text-box form__input-firstname">
+						<div class="form__text">First Name</div>
+						<input type="text" class="form__input-box" placeholder="Enter your first name">
+					</div>
 
-		<div class="button-register">
-			<button>Create Account</button>
+					<div class="form__text-box form__input-lastname">
+						<div class="form__text">Last Name</div>
+						<input type="text" class="form__input-box" placeholder="Enter your last name">
+					</div>
+
+					<div class="form__text-box form__input-email">
+						<div class="form__text">Email</div>
+						<input type="text" class="form__input-box" placeholder="Enter your email">
+					</div>
+
+					<div class="form__text-box form__input-phone">
+						<div class="form__text">Phone</div>
+						<input type="text" class="form__input-box" placeholder="Enter your number">
+					</div>
+
+					<div class="form__text-box form__input-pasword">
+						<div class="form__text">Pasword</div>
+						<input type="text" class="form__input-box" placeholder="Create your password">
+					</div>
+
+					<div class="form__text-box form__input-confirm">
+						<div class="form__text">Confirm pasword</div>
+						<input type="text" class="form__input-box" placeholder="Confirm your password">
+					</div>
+
+					<div class="form__bottom">
+						<div checkbox class="form__text-box form__text form__checkbox">
+							<input type="checkbox" id="agree" name="agree">
+							<label for="agree">I agree to the Terms of User</label>
+						</div>
+						<button class="form__button">Create Account</button>
+					</div>
+				</div>
 		</div>
 	</body>
 </html>
