@@ -17,15 +17,3 @@ form.addEventListener('submit', e =>{
 	console.log('pasword', pasword.value)
 	console.log('pasword confirm', paswordConfirm.value)
 })
-
-//TODO: lag en popup, apend info to parent element 
-
-
-// let formData = {}
-// const inputs = [firstName,lastName,number,email,pasword,paswordConfirm]
-// for (let input of inputs) {
-// 	input.addEventListener('input', e=>{
-// 		formData[e.target.name] = e.target.value;
-// 	})
-// }
-
