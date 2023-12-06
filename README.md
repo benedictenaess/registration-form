@@ -23,3 +23,6 @@ app.js: JavaScript file for handling form submission.
 Open the index.html file in a web browser.
 Fill in the required details in the registration form.
 Click the "Create Account" button to submit the form.
+
+https://ubiquitous-halva-214aac.netlify.app
+
